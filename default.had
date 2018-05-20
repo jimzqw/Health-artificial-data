@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<setXML>
+    <ageMax>80</ageMax>
+    <ageMin>5</ageMin>
+    <asianPer>4.8</asianPer>
+    <avgIncome>60000</avgIncome>
+    <avgPayment>80</avgPayment>
+    <blackPer>12.6</blackPer>
+    <botBloodMax>120</botBloodMax>
+    <botBloodMin>60</botBloodMin>
+    <drugs>10</drugs>
+    <female_Height_max>72</female_Height_max>
+    <female_Height_min>58</female_Height_min>
+    <female_Weight_max>179</female_Weight_max>
+    <female_Weight_min>102</female_Weight_min>
+    <genderFemale>50.0</genderFemale>
+    <genderMale>50.0</genderMale>
+    <goalNumber>100</goalNumber>
+    <latinoPer>6.2</latinoPer>
+    <male_Height_max>76</male_Height_max>
+    <male_Height_min>60</male_Height_min>
+    <male_Weight_max>307</male_Weight_max>
+    <male_Weight_min>128</male_Weight_min>
+    <nativeIslandPer>0.2</nativeIslandPer>
+    <nativePer>0.9</nativePer>
+    <otherPer>2.9</otherPer>
+    <password>123</password>
+    <topBloodMax>180</topBloodMax>
+    <topBloodMin>100</topBloodMin>
+    <username>joe</username>
+    <whitePer>72.4</whitePer>
+    <MAC>3C-A9-F4-10-37-18</MAC>
+</setXML>

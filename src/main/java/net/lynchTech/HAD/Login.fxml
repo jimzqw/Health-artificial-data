@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="640.0" styleClass="loginBackground" stylesheets="@logIn.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.lynchTech.HAD.LoginController">
+	<children>
+		<Pane layoutX="-6.0" layoutY="-7.0" prefHeight="340.0" prefWidth="586.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<children>
+				<Pane layoutX="351.0" layoutY="284.0" stylesheets="@LogIn.css">
+					<children>
+						<Button fx:id="loginBtn" defaultButton="true" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="100.0" stylesheets="@LogIn.css" text="Login" textAlignment="CENTER" textFill="RED">
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Button>
+						<Button fx:id="cancelBtn" cancelButton="true" layoutX="136.0" mnemonicParsing="false" onAction="#cancel" prefHeight="40.0" prefWidth="100.0" stylesheets="@LogIn.css" text="Exit">
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Button>
+					</children>
+				</Pane>
+				<HBox layoutX="136.0" layoutY="129.0" minHeight="-Infinity" minWidth="-Infinity" spacing="100.0">
+					<children>
+						<Label text="Username" textFill="#dadada">
+							<font>
+								<Font size="24.0" />
+							</font>
+						</Label>
+						<TextField fx:id="username" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="150.0" stylesheets="@LogIn.css">
+							<styleClass>
+								<String fx:value="textField" />
+								<String fx:value="textField-area" />
+								<String fx:value="textField-input" />
+							</styleClass>
+							<opaqueInsets>
+								<Insets />
+							</opaqueInsets>
+						</TextField>
+					</children>
+					<padding>
+						<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+					</padding>
+				</HBox>
+				<HBox layoutX="137.0" layoutY="189.0" minHeight="-Infinity" minWidth="-Infinity" spacing="100.0">
+					<children>
+						<Label text="Password " textFill="#dadada">
+							<font>
+								<Font size="24.0" />
+							</font>
+						</Label>
+						<PasswordField fx:id="password" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="150.0" stylesheets="@LogIn.css">
+							<styleClass>
+								<String fx:value="textField" />
+								<String fx:value="textField-area" />
+								<String fx:value="textField-input" />
+							</styleClass>
+							<opaqueInsets>
+								<Insets />
+							</opaqueInsets>
+						</PasswordField>
+					</children>
+					<padding>
+						<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+					</padding>
+				</HBox>
+				<Label layoutX="228.0" layoutY="14.0" text="Welcome to HAD" textFill="#dadada">
+					<font>
+						<Font size="24.0" />
+					</font>
+				</Label>
+				<Label layoutX="227.0" layoutY="63.0" text="Login to continue" textFill="#dadada">
+					<font>
+						<Font size="24.0" />
+					</font>
+				</Label>
+				<CheckBox layoutX="85.0" layoutY="297.0" mnemonicParsing="false" stylesheets="@LogIn.css" text="Remember Me" textFill="#dadada">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</CheckBox>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>
